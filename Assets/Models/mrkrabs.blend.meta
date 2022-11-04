@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 20fb8101a47fc4876b231f1d5c57fc7b
+guid: 1cc3735f62cfc485795aacddafaa18af
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: bolts
-    second: {fileID: 2100000, guid: db415a7b0a9d949a4938c7040f421541, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: brwn
-    second: {fileID: 2100000, guid: c2edc7b74f0bc464788edac86108dea1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: planks
-    second: {fileID: 2100000, guid: 3036e9435bc7e447ca36be51c1438dca, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: d6mnb0u-8dc5d329-d6f1-4861-a03e-821c8f0e60b9
-    second: {fileID: 2800000, guid: 054baf0456c68492098eeaa2173b2b84, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: spongebob_squarepants___order_here_sign___free_pdf_by_dwarfsforge_d6mnbpq-fullview
-    second: {fileID: 2800000, guid: 14d49d738c5974b9696c65810cd5b664, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
