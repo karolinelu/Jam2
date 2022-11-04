@@ -32,12 +32,20 @@ public class mov : MonoBehaviour
     private float? lastGroundedTime; // is nullable
     private float? jumpButtonPressedTime; // is nullable
 
+    // var for audio
+    public AudioSource audio;
+    public AudioClip Walking_Sfx;
+    public AudioClip Jumping_Sfx;
+    
+
     // Start is called before the first frame update
     void Start()
     {
+         audio = GetComponent<AudioSource>();
         // animator = GetComponent<Animator>();
         characterController = GetComponent<CharacterController>();
         originalStepOffset = characterController.stepOffset;
+         audio.enabled = true;
     }
 
 
@@ -51,6 +59,12 @@ public class mov : MonoBehaviour
         // Movement
         Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
 
+        if(horizontalInput == 0 && verticalInput == 0){
+            audio.enabled = false;
+
+        }else{
+            audio.enabled = true;
+        }
         // Gamepad varying speed
         float magnitude = movementDirection.magnitude; // get magnitude
         magnitude = Mathf.Clamp01(magnitude); // prevent being above 1
@@ -75,7 +89,7 @@ public class mov : MonoBehaviour
         {
             jumpButtonPressedTime = Time.time;
         }
-
+        
         if (Time.time - lastGroundedTime <= jumpButtonGracePeriod)
         {
             characterController.stepOffset = originalStepOffset;
@@ -125,6 +139,7 @@ public class mov : MonoBehaviour
         }
 
     }
+
 
 
 }
