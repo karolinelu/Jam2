@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 20fb8101a47fc4876b231f1d5c57fc7b
+guid: deaf76a8133f84a1a88fbfa1ab7caa15
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,18 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: bolts
-    second: {fileID: 2100000, guid: db415a7b0a9d949a4938c7040f421541, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: brwn
-    second: {fileID: 2100000, guid: c2edc7b74f0bc464788edac86108dea1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: planks
-    second: {fileID: 2100000, guid: 3036e9435bc7e447ca36be51c1438dca, type: 2}
+    second: {fileID: 2100000, guid: 3f98046d2928e4109bb359d7ae79cd2d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
